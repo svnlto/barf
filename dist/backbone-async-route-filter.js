@@ -9,18 +9,6 @@
 var _ = _dereq_('underscore');
 var Backbone = _dereq_('backbone');
 
-Backbone.Router.extend = function () {
-  var child = _.extend.apply(this, arguments),
-    childProto = child.prototype,
-    parentProto = this.prototype;
-
-  _.each(['before', 'after'], function (filter) {
-    _.defaults(childProto[filter], parentProto[filter]);
-  });
-
-  return child;
-};
-
 _.extend(Backbone.Router.prototype, {
 
   /**
