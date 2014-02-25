@@ -1,6 +1,6 @@
 {
   "name": "backbone-async-route-filter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "async before and after filters for Backbone.Router",
   "repository": {
     "type": "git",
