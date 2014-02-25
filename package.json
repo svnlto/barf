@@ -1,7 +1,7 @@
 {
   "name": "backbone-async-route-filter",
   "version": "0.1.0",
-  "description": "async before and after filters for backbone routes",
+  "description": "async before and after filters for Backbone.Router",
   "repository": {
     "type": "git",
     "url": "git://github.com/svnlto/backbone-async-route-filter"
@@ -10,10 +10,10 @@
   "homepage": "https://github.com/svnlto/backbone-async-route-filter",
   "keywords": [
     "bacbkone",
-    "async filters",
-    "route-filters",
-    "before filter",
-    "after filter"
+    "async",
+    "before",
+    "after",
+    "filter"
   ],
   "license": "MIT",
   "devDependencies": {
