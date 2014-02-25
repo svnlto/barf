@@ -1,4 +1,4 @@
-Backbone Async Route filter
+BARF - Backbone Async Route Filter
 ==================
 
 Backbone Async Route filters allows you to have a pre-condition for the router using `before` filters and some
