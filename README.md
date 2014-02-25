@@ -1,10 +1,10 @@
-Backbone Async Route filters
+Backbone Async Route filter
 ==================
 
 Backbone Async Route filters allows you to have a pre-condition for the router using `before` filters and some
 "after" routing calls using `after` filters.
 
-Backbone async filters is port of [fantactuka/backbone-route-filter](https://github.com/fantactuka/backbone-route-filter) with expressjs style async next callbacks.
+Backbone async filters is port of [fantactuka/backbone-route-filter](https://github.com/fantactuka/backbone-route-filter) with node style async next callbacks.
 
 The primary problem the async callbacks solve is the ability to stall exectution of the forthcoming item in the chain until a next callback has been issued. This makes it very convenient to add ajax functionality in your filters without fearing that the route function will get executed before the ajax function finishes in the background.
 
@@ -43,7 +43,7 @@ var Router = Backbone.Router.extend({
   },
 
   checkAuthorization: function(fragment, args, next) {
-    
+
     //make ajax to check authorization here.
     $.ajax({
       data: somedata,
@@ -92,7 +92,7 @@ require(['path/to/backbone-route-filter-amd'], function(Router){
     },
 
     checkAuthorization: function(fragment, args, next) {
-      
+
       //make ajax to check authorization here.
       $.ajax({
         data: somedata,
@@ -105,13 +105,9 @@ require(['path/to/backbone-route-filter-amd'], function(Router){
         }
       });
     }
-  }) 
+  })
 });
 ```
-
-## CONTRIBUTORS
-  [Srinivas Iyer](https://github.com/srinivasiyer)
-
 ## LICENSE
 
 MIT
