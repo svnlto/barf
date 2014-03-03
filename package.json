@@ -1,13 +1,13 @@
 {
-  "name": "backbone-async-route-filter",
-  "version": "1.0.0",
+  "name": "barf",
+  "version": "1.0.1",
   "description": "async before and after filters for Backbone.Router",
   "repository": {
     "type": "git",
-    "url": "git://github.com/svnlto/backbone-async-route-filter"
+    "url": "git://github.com/svnlto/barf"
   },
   "main": "src/backbone-async-route-filter",
-  "homepage": "https://github.com/svnlto/backbone-async-route-filter",
+  "homepage": "https://github.com/svnlto/barf",
   "keywords": [
     "bacbkone",
     "async",
