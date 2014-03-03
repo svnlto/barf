@@ -1,6 +1,6 @@
 {
   "name": "barf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "async before and after filters for Backbone.Router",
   "repository": {
     "type": "git",
