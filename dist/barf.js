@@ -1,5 +1,5 @@
-// backbone-async-route-filter - 0.1.0
-// https://github.com/svnlto/backbone-async-route-filter.js
+// barf - 1.0.1
+// https://github.com/svnlto/barf.js
 // Copyright 2012 - 2014 https://github.com/svnlto/
 // Licensed Apache License 2.0
 

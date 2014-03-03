@@ -47,8 +47,8 @@ module.exports = function (grunt) {
 
     browserify: {
       dev: {
-        src: ['src/backbone-async-route-filter.js'],
-        dest: 'dist/backbone-async-route-filter.js',
+        src: ['src/barf.js'],
+        dest: 'dist/barf.js',
         options: {
           external: [ 'underscore', 'backbone' ],
           standalone: 'Backbone.Router',
@@ -56,8 +56,8 @@ module.exports = function (grunt) {
         }
       },
       build: {
-        src: ['src/backbone-async-route-filter.js'],
-        dest: 'dist/backbone-async-route-filter.js',
+        src: ['src/barf.js'],
+        dest: 'dist/barf.js',
         options: {
           external: [ 'underscore', 'backbone' ],
           standalone: 'Backbone.Router'
