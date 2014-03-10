@@ -27,7 +27,7 @@ module.exports = Backbone.Router.extend({
 
   before: {
     // Using instance methods
-    'users/(:id)': 'checkAuth',
+    'users(/:id)': 'checkAuth',
     
     // Using inline filter definition
     '*any': function (fragment, args, next) {
